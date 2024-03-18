@@ -38,6 +38,9 @@ else()
     else()
         add_executable(qt-video-player
             ${PROJECT_SOURCES}
+            qt-video-player.qrc
+            dialog_login.h dialog_login.cpp dialog_login.ui
+            dialog_register.h dialog_register.cpp dialog_register.ui
         )
     endif()
 endif()

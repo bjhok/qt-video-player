@@ -1,0 +1,22 @@
+{
+  "name": "qt-meal-server",
+  "version-semver": "0.1.0",
+  "dependencies": [
+    {
+      "name": "fmt"
+    },
+    {
+      "name": "nlohmann-json"
+    },
+    {
+      "name": "sqlite-orm"
+    },
+    {
+      "name": "cpp-httplib"
+    },
+    {
+      "name": "ffmpeg"
+    }
+  ],
+  "default-features": []
+}
